@@ -8,6 +8,6 @@ setup(
     packages = ['pygit'],
     entry_points = {
        'console_scripts' : [
-       'pygit = pygit.cli:main'
+       'pygit = app.cli:main'
        ]
    })
